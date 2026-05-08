@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+    TestNG Suite Configuration
+    Run a specific suite:  mvn test -Dsurefire.suiteXmlFiles=src/test/resources/testng.xml
+    Override browser:      mvn test -Dbrowser=firefox
+-->
+<suite name="Selenium Automation Suite" parallel="methods" thread-count="2" verbose="1">
+
+    <parameter name="browser" value="chrome"/>
+
+    <listeners>
+        <!-- Allure listener for automatic screenshot/attachment on failure -->
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>
