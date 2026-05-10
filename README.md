@@ -1,7 +1,7 @@
 # 🧪 Selenium Java Automation Framework
 
 ![CI](https://github.com/klakshmik/selenium-java-automation-framework/actions/workflows/ci.yml/badge.svg)
-![Java](https://img.shields.io/badge/Java-11-orange?logo=java)
+![Java](https://img.shields.io/badge/Java-17-orange?logo=java)
 ![Selenium](https://img.shields.io/badge/Selenium-4.18-green?logo=selenium)
 ![TestNG](https://img.shields.io/badge/TestNG-7.9-blue)
 ![Allure](https://img.shields.io/badge/Allure-2.25-yellow)
@@ -67,7 +67,7 @@ selenium-java-automation-framework/
 
 ### Prerequisites
 
-- Java 11+
+- Java 17+
 - Maven 3.8+
 - Chrome / Firefox installed (or use headless mode)
 
@@ -197,16 +197,16 @@ The `ThreadLocal<WebDriver>` in `DriverManager` ensures each thread gets its own
 ## 📦 Tech Stack
 
 | Tool | Version | Purpose |
-|---|---|---|
-| Java | 11 | Language |
-| Selenium | 4.18.1 | Browser automation |
-| TestNG | 7.9.0 | Test runner + assertions |
-| Allure | 2.25.0 | Reporting |
-| WebDriverManager | 5.7.0 | Automatic driver management |
-| Log4j2 | 2.23.0 | Logging |
-| JavaFaker | 1.0.2 | Test data generation |
-| Maven | 3.8+ | Build & dependency management |
-| GitHub Actions | — | CI/CD pipeline |
+|---|---------|---|
+| Java | 17      | Language |
+| Selenium | 4.18.1  | Browser automation |
+| TestNG | 7.9.0   | Test runner + assertions |
+| Allure | 2.25.0  | Reporting |
+| WebDriverManager | 5.7.0   | Automatic driver management |
+| Log4j2 | 2.23.0  | Logging |
+| JavaFaker | 1.0.2   | Test data generation |
+| Maven | 3.8+    | Build & dependency management |
+| GitHub Actions | —       | CI/CD pipeline |
 
 ---
 
